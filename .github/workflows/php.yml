@@ -24,6 +24,7 @@ jobs:
           php-version: ${{ matrix.php }}
 
       - name: Create folder
+        working-directory: ./phpstan
         run: |
           mkdir -p PowerfulAccountLock/src
 
