@@ -30,6 +30,10 @@ jobs:
           path: "~/.cache/composer"
           key: "php-${{ matrix.php }}-composer-${{ hashFiles('**/composer.json') }}"
           restore-keys: "php-${{ matrix.php }}-composer-"
+          
+      - name: Create folder
+        run: |
+          mkdir -p PowerfulAccountLock/src
 
       - name: Install PHPStan Composer dependencies
         working-directory: ./phpstan
