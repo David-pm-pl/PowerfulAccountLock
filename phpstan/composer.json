@@ -1,0 +1,49 @@
+{
+   "name": "ytbjero/profanityaccountlock",
+   "description": "Powerful Account Lock Plugin For PocketMine-MP",
+   "type": "project",
+   "keywords": [
+      "profanityaccountlock",
+      "pocketmine-mp"
+   ],
+   "readme": "../README.md",
+   "homepage": "https://github.com/eric-pm-pl",
+   "time": "2022-11-03 05:28",
+   "license": "GPL-3.0-only",
+   "authors": [
+        {
+            "name": "YTBJero",
+            "email": "nguyenhieucoder47@gmail.com",
+            "homepage": "https://github.com/EricGamingYT",
+            "role": "Developer"
+        }
+    ],
+   "support": {
+      "email": "nguyenhieucoder47@gmail.com",
+      "issues": "https://github.com/eric-pm-pl/PowerfulAccountLock/issues",
+      "wiki": "https://github.com/eric-pm-pl/PowerfulAccountLock/wiki",
+      "source": "https://github.com/eric-pm-pl/PowerfulAccountLock"
+   },
+   "funding": [
+      {
+         "type": "buymeacoffee",
+         "url": "https://www.buymeacoffee.com/YTBJero"
+      }
+   ],
+   "require": {
+      "phpstan/phpstan": "^1.4.6",
+      "pocketmine/pocketmine-mp": "^4.0.0",
+      "phpstan/phpstan-strict-rules": "^1.0",
+      "phpstan/extension-installer": "^1.0"
+   },
+   "autoload": {
+      "psr-4": {
+         "": "../src"
+      }
+   },
+   "config": {
+      "allow-plugins": {
+         "phpstan/extension-installer": true
+      }
+   }
+}
