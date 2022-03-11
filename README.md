@@ -3,4 +3,4 @@
 [![Lint](https://poggit.pmmp.io/ci.shield/Eric-pm-pl/PowerfulAccountLock/PowerfulAccountLock)](https://poggit.pmmp.io/ci/Eric-pm-pl/PowerfulAccountLock/PowerfulAccountLock)
 [![PHPStan](https://github.com/eric-pm-pl/PowerfulAccountLock/actions/workflows/php.yml/badge.svg)](https://github.com/eric-pm-pl/PowerfulAccountLock/actions/workflows/php.yml/badge.svg)
 
-**Powerful Account Lock Plugin For PocketMine-MP**
+🚫 **Powerful Account Lock Plugin For PocketMine-MP**
