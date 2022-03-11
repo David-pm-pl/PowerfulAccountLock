@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Eric-pm-pl/PowerfulAccountLock
+build-by-default: true
+branches:
+- stable
+projects:
+  PowerfulAccountLock:
+    path: ""
+    icon: "assets/image/icon.png"
+    lint:
+      phpstan: false
+...
