@@ -4,6 +4,10 @@ api: 4.0.0
 main: YTBJero\PowerfulAccountLock\PowerfulAccountLock
 website: https://github.com/EricGamingYT
 load: STARTUP
+author: 
+  - YTBJero
+  - NoobMCBG
+  
 description: Powerful Account Lock Plugin For PocketMine-MP
 extensions:
   core: ">=8.0"
